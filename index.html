@@ -2,47 +2,64 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Gavin's Blog - Top GitHub Repositories</title>
+    <title>Gavin 的博客 - GitHub 热门项目</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
-        header { background: #333; color: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
-        header h1 { margin: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        header h1 { margin: 0; font-size: 2em; }
         header a { color: white; text-decoration: none; }
-        header p { margin: 5px 0 0 0; opacity: 0.8; font-size: 0.9em; }
-        .post { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .post h2 { margin: 0 0 10px 0; }
+        header p { margin: 10px 0 0 0; opacity: 0.9; font-size: 1.1em; }
+        .post { background: white; padding: 20px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: transform 0.2s; }
+        .post:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .post h2 { margin: 0 0 12px 0; font-size: 1.3em; }
         .post h2 a { color: #333; text-decoration: none; }
-        .post h2 a:hover { color: #0366d6; }
-        .post .date { color: #666; font-size: 0.85em; margin-bottom: 10px; }
-        .post .desc { color: #555; }
-        .post .stars { display: inline-block; background: #ffd700; color: #333; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; margin-left: 10px; }
-        footer { text-align: center; color: #666; margin-top: 40px; font-size: 0.85em; }
+        .post h2 a:hover { color: #667eea; }
+        .post .date { color: #888; font-size: 0.9em; margin-bottom: 10px; }
+        .post .desc { color: #555; line-height: 1.8; }
+        .post .stars { display: inline-block; background: linear-gradient(135deg, #ffd700, #ffb347); color: #333; padding: 3px 12px; border-radius: 20px; font-size: 0.9em; margin-left: 10px; font-weight: bold; }
+        .post .tags { margin-top: 12px; }
+        .post .tag { display: inline-block; background: #e8f4fd; color: #2196F3; padding: 2px 10px; border-radius: 12px; font-size: 0.8em; margin-right: 8px; }
+        footer { text-align: center; color: #888; margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; font-size: 0.9em; }
     </style>
 </head>
 <body>
     <header>
-        <h1><a href="/">📚 Gavin's Blog</a></h1>
-        <p>Exploring the most popular GitHub repositories</p>
+        <h1><a href="/">📚 Gavin 的技术博客</a></h1>
+        <p>探索 GitHub 最流行的开源项目</p>
     </header>
     <main>
         <div class="post">
-            <h2><a href="_posts/2026-03-10-freeCodeCamp-freeCodeCamp.md">freeCodeCamp/freeCodeCamp - ⭐ 438,006 Stars</a></h2>
-            <div class="date">2026-03-10</div>
-            <p class="desc">The open source codebase for freeCodeCamp.org. Build a web app, learn programming, get a job.</p>
+            <h2><a href="_posts/2026-03-10-freeCodeCamp-freeCodeCamp.md">freeCodeCamp/freeCodeCamp ⭐ 438,006</a></h2>
+            <div class="date">2026-03-10 <span class="stars">⭐ 438,006</span></div>
+            <p class="desc">免费学习编程的在线平台。通过构建 Web 应用来学习编程，是入门编程的最佳选择之一。</p>
+            <div class="tags">
+                <span class="tag">编程学习</span>
+                <span class="tag">Web开发</span>
+                <span class="tag">开源</span>
+            </div>
         </div>
         <div class="post">
-            <h2><a href="_posts/2026-03-10-sindresorhus-awesome.md">sindresorhus/awesome - ⭐ 444,268 Stars</a></h2>
-            <div class="date">2026-03-10</div>
-            <p class="desc">😎 Awesome lists about all kinds of interesting topics</p>
+            <h2><a href="_posts/2026-03-10-sindresorhus-awesome.md">sindresorhus/awesome ⭐ 444,268</a></h2>
+            <div class="date">2026-03-10 <span class="stars">⭐ 444,268</span></div>
+            <p class="desc">关于各种有趣主题的精选资源列表。涵盖了编程、人工智能、工具等领域的优质资源。</p>
+            <div class="tags">
+                <span class="tag">资源列表</span>
+                <span class="tag">awesome</span>
+            </div>
         </div>
         <div class="post">
-            <h2><a href="_posts/2026-03-10-codecrafters-io-build-your-own-x.md">codecrafters-io/build-your-own-x - ⭐ 473,825 Stars</a></h2>
-            <div class="date">2026-03-10</div>
-            <p class="desc">Build your own: Command-line tool, BitTorrent client, Blockchain / Cryptocurrency, Bot, Database, Docker, Emulator / Virtual Machine, File system, Git, Network Stack, Neural Network, Operating System, Programming Language, Regex Engine, Shell, Template Engine, Text Editor, Game Engine, Architecture</p>
+            <h2><a href="_posts/2026-03-10-codecrafters-io-build-your-own-x.md">codecrafters-io/build-your-own-x ⭐ 473,825</a></h2>
+            <div class="date">2026-03-10 <span class="stars">⭐ 473,825</span></div>
+            <p class="desc">手把手教你构建各种核心技术：从零开始实现 Git、Docker、区块链、TCP/IP 协议栈等。非常适合想深入理解系统原理的开发者。</p>
+            <div class="tags">
+                <span class="tag">教程</span>
+                <span class="tag">系统原理</span>
+                <span class="tag">练手项目</span>
+            </div>
         </div>
     </main>
     <footer>
-        <p>🔄 Auto-updated every hour | Powered by GitHub Pages</p>
+        <p>🔄 每小时自动更新 | 基于 GitHub Pages</p>
     </footer>
 </body>
 </html>
