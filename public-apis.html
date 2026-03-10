@@ -5,12 +5,17 @@
     <title>public-apis - Gavin 的技术博客</title>
     <style>
         body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
-        a { color: #667eea; }
+        a { color: #667eea; text-decoration: none; }
+        a:hover { text-decoration: underline; }
         .back { display: inline-block; margin-bottom: 20px; padding: 10px 20px; background: #667eea; color: white; text-decoration: none; border-radius: 8px; }
         .post { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        h1 { color: #333; }
-        .stars { background: #ffd700; padding: 5px 15px; border-radius: 20px; font-weight: bold; }
+        h1 { color: #333; margin: 0 0 10px 0; }
+        .stars { background: linear-gradient(135deg, #ffd700, #ffb347); padding: 5px 15px; border-radius: 20px; font-weight: bold; color: #333; }
         .section { margin: 20px 0; padding: 15px; background: #f9f9f9; border-radius: 8px; }
+        .tag { display: inline-block; background: #e8f4fd; color: #2196F3; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; margin-right: 8px; margin-bottom: 8px; }
+        .info-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+        .info-item { background: white; padding: 10px; border-radius: 6px; }
+        .info-item strong { color: #667eea; }
     </style>
 </head>
 <body>
@@ -20,22 +25,28 @@
         
         <div class="section">
             <h2>📦 项目介绍</h2>
-            <p>免费 API 列表资源。收集了各种可免费使用的 API，包括天气、地图、支付、身份验证等。</p>
+            <p style="font-size: 1.1em; line-height: 1.8;">开发者必备的免费 API 宝库！收录了各种免费可用的接口，涵盖天气、地图、支付等实用场景。</p>
         </div>
         
         <div class="section">
-            <h2>基本信息</h2>
-            <ul>
-                <li><strong>⭐ Stars:</strong> 406,077</li>
-                <li><strong>🔗 GitHub:</strong> <a href="https://github.com/public-apis/public-apis" target="_blank">public-apis/public-apis</a></li>
-                <li><strong>💻 编程语言:</strong> Python</li>
-            </ul>
+            <h2>📊 基本信息</h2>
+            <div class="info-grid">
+                <div class="info-item"><strong>⭐ Stars</strong>: 406,077</div>
+                <div class="info-item"><strong>🍴 Forks</strong>: 56,453</div>
+                <div class="info-item"><strong>💻 编程语言</strong>: Python</div>
+                <div class="info-item"><strong>🔗 GitHub</strong>: <a href="https://github.com/public-apis/public-apis" target="_blank">访问</a></div>
+            </div>
         </div>
-        
         <div class="section">
-            <h2>为什么值得关注？</h2>
-            <p>这是一个非常棒的免费 API 资源集合，开发者可以快速找到需要的 API 来构建自己的应用。</p>
-            <p><a href="https://github.com/public-apis/public-apis" target="_blank">查看项目 →</a></p>
+            <h2>🏷️ 相关标签</h2>
+            <p>
+                <span class="tag"></span>
+            </p>
+        </div>
+        <div class="section">
+            <h2>🤔 为什么会值得关注？</h2>
+            <p style="font-size: 1.05em; line-height: 1.8;">超过 40 万人点赞！Fork 数超 5 万，是开发者找免费 API 的首选资源。</p>
+            <p style="margin-top: 15px;"><a href="https://github.com/public-apis/public-apis" target="_blank" style="color: #667eea; font-weight: bold;">→ 在 GitHub 查看项目详情</a></p>
         </div>
     </div>
 </body>
