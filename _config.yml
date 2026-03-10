@@ -1,6 +1,0 @@
-title: Gavin 的技术博客
-description: 探索 GitHub 最流行的开源项目
-baseurl: ""
-url: "https://gavin-yjq.github.io"
-markdown: kramdown
-theme: minima
