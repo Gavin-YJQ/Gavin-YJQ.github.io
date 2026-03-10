@@ -1,69 +1,23 @@
 ---
 layout: post
-title: "freeCodeCamp - ⭐  Stars"
+title: "freeCodeCamp/freeCodeCamp - ⭐ 438,006 Stars"
 repo_url: "https://github.com/freeCodeCamp/freeCodeCamp"
 ---
 
-## freeCodeCamp
+## 📦 项目介绍
 
-freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+freeCodeCamp 是全球最受欢迎的免费编程学习平台。通过构建实际的 Web 项目来学习编程，是入门 Web 开发的最佳选择。
 
 ### 基本信息
-- **⭐ Stars**: 438,005
+
+- **⭐ Stars**: 438,006
 - **🔗 GitHub**: [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
-- **💻 Language**: TypeScript
+- **💻 编程语言**: TypeScript
 
-### 简介
+### 为什么值得关注？
 
-[![freeCodeCamp Social Banner](https://cdn.freecodecamp.org/platform/universal/fcc_banner_new.png)](https://www.freecodecamp.org/)
+freeCodeCamp 提供了一个完整的编程学习路径，从 HTML、CSS、JavaScript 到 React、Node.js、数据库等。它最大的特点是**实践导向**——通过一个个实际项目来学习，而不是枯燥的理论。
 
-[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
-[![Discord](https://img.shields.io/discord/692816967895220344?logo=discord&label=Discord&color=5865F2)](https://discord.gg/PRyKn3Vbay)
-[![LFX Active Contributors](https://insights.linuxfoundation.org/api/badge/active-contributors?project=freecodecamp&repos=https://github.com/freeCodeCamp/freeCodeCamp)](https://insights.linuxfoundation.org/project/freecodecamp/repository/freecodecamp-freecodecamp)
+无论你是零基础还是有一定经验，freeCodeCamp 都能帮你系统地学习编程技能。
 
-## freeCodeCamp.org's open-source codebase and curriculum
-
-[freeCodeCamp.org](https://www.freecodecamp.org) is a friendly community where you can learn to code for free. It is run by a [donor-supported 501(c)(3) charity](https://www.freecodecamp.org/donate) to help millions of busy adults transition into tech. Our community has already helped more than 100,000 people get their first developer job.
-
-Our full-stack web development and machine learning curriculum is completely free and self-paced. We have thousands of interactive coding challenges to help you expand your skills.
-
-## Table of Contents
-
-- [Certifications](#certifications)
-- [The Learning Platform](#the-learning-platform)
-- [Reporting Bugs and Issues](#reporting-bugs-and-issues)
-- [Reporting Security Issues and Responsible Disclosure](#reporting-security-issues-and-responsible-disclosure)
-- [Contributing](#contributing)
-- [Platform, Build and Deployment Status](#platform-build-and-deployment-status)
-- [License](#license)
-
-### Certifications
-
-freeCodeCamp.org offers several free developer certifications that make up the [Full-Stack Developer Curriculum](https://www.freecodecamp.org/learn/full-stack-developer-v9/):
-
-- [Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design-v9/)
-- [JavaScript](https://www.freecodecamp.org/learn/javascript-v9/)
-- [Front-End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries-v9/)
-- [Python](https://www.freecodecamp.org/learn/python-v9/)
-- [Relational Databases](https://www.freecodecamp.org/learn/relational-databases-v9/)
-- [Back-End developer and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis-v9/)
-
-Each of these certifications involves completing interactive lessons, workshops, labs, reviews, and quizzes. Throughout the certification, you'll need to complete 5 required projects to qualify for the exam. Once you pass the exam, then you can claim the certification.
-
-freeCodeCamp.org also offers free language certifications designed around internationally recognized proficiency levels:
-
-- [A2 English for Developers (Beta)](https://www.freecodecamp.org/learn/a2-english-for-developers/)
-- [B1 English for Developers(Beta)](https://www.freecodecamp.org/learn/b1-english-for-developers/)
-- [A1 Professional Spanish(Beta)](https://www.freecodecamp.org/learn/a1-professional-spanish/)
-- [A1 Professional Chinese (Beta)](https://www.freecodecamp.org/learn/a1-professional-chinese/)
-
-Each of these certifications is organized into modules, with sections for warm-ups, lessons, practice exercises, review pages, and quizzes to ensure you fully grasp the material before progressing to the next module. You'll need to complete all of the quizzes in order to qualify for the exam at the end of the certification.
-
-Once you've earned a certification, you will always have it. You will always be able to link to it from your LinkedIn or resume. And when your prospective employers or freelance clients click that link, they'll see a verified certification specific to you.
-
-The one exception to this is if we discover violations of our [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/). When we catch people unambiguously plagiarizing (submitting other people's code or projects as their own without citation), we do what all rigorous institutions of learning should do - we revoke their certifications and ban those people.
-
-In addition, to help prepare for job interviews, freeCodeCamp.org includes The Odin Project (freeCodeCamp Remix), Coding Interview Prep, Project Euler, and Rosetta Code.
-
-*[查看完整 README →](https://github.com/freeCodeCamp/freeCodeCamp)*
----
+*[查看项目 →](https://github.com/freeCodeCamp/freeCodeCamp)*
